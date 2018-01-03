@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infra="clr-namespace:PedidosAlfa.Infrastructure"
+             x:Class="PedidosAlfa.App">
+	<Application.Resources>
+
+		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <!--InstanceLocator-->
+            <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+            <!--Color-->
+            <Color x:Key="FontColor">#212121</Color>
+            <Color x:Key="PrimaryColor">#f44336</Color>
+            <Color x:Key="DarkColor">#b71c1c</Color>
+            <Color x:Key="BlackOpacityColor">#BF000000</Color>
+            
+
+
+        </ResourceDictionary>
+
+	</Application.Resources>
+</Application>
